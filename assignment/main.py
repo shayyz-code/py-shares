@@ -17,7 +17,7 @@ def main():
                 print(f"Choose a function!\n)Add user\n)Modify account info\n)Remove account\n\nEnter function number here (1 or 2 or 3)>>>")
                 break
             else:
-                print(f"Wrong gmail or password! You can try 3 times. {i}\3")
+                print(f"Wrong gmail or password! You can try 3 times. {i + 1} \3")
     
     user_login()
 
